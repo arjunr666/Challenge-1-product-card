@@ -1,0 +1,74 @@
+@media (max-width: 90em) {
+  .container {
+    width: 42%;
+  }
+}
+
+@media (max-width: 79em) {
+  html {
+    font-size: 56.25%;
+  }
+
+  .container {
+    width: 44.4%;
+  }
+}
+
+@media (max-width: 66em) {
+  html {
+    font-size: 50%;
+  }
+
+  .container {
+    margin-top: 15rem;
+  }
+}
+
+@media (max-width: 60em) {
+  html {
+    font-size: 43.75%;
+  }
+
+  .container {
+    width: 45.2%;
+    margin-top: 20rem;
+  }
+
+  .price::after {
+    left: 108px;
+    top: 7px;
+  }
+}
+
+@media (max-width: 51em) {
+  .container {
+    width: 51%;
+  }
+}
+
+@media (max-width: 45em) {
+  .container {
+    width: 42%;
+    margin-top: 10rem;
+  }
+  .grid--2-cols {
+    grid-template-columns: 1fr;
+  }
+
+  .img-box {
+    background-image: url(images/image-product-mobile.jpg);
+    height: 36rem;
+  }
+}
+
+@media (max-width: 36em) {
+  .container {
+    width: 59%;
+  }
+}
+
+@media (max-width: 25em) {
+  .container {
+    width: 69%;
+  }
+}

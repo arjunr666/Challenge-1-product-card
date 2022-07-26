@@ -1,0 +1,147 @@
+/***********************************/
+/* GENERAL */
+/***********************************/
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #f2ebe3;
+  overflow: hidden;
+  max-height: 100vh;
+}
+
+.container {
+  width: 40%;
+  margin: 0rem auto;
+  margin-top: 13rem;
+}
+
+.grid {
+  display: grid;
+}
+
+.grid--2-cols {
+  grid-template-columns: 1fr 1fr;
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+  border-bottom: 1px solid currentColor;
+  padding-bottom: 2px;
+  color: #6c7289;
+  font-size: 1.4rem;
+  transition: all 0.3s;
+}
+
+a:hover,
+a:active {
+  border-bottom: 1px solid transparent;
+}
+
+/***********************************/
+/* FEATURE SECTION */
+/***********************************/
+
+.main-box div:first-child {
+  border-top-left-radius: 11px;
+  border-bottom-left-radius: 11px;
+}
+
+.main-box div:last-child {
+  border-top-right-radius: 11px;
+  border-bottom-right-radius: 11px;
+}
+
+.img-box {
+  background-image: url(images/image-product-desktop.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.info-box {
+  background-color: #fff;
+  padding: 3.4rem;
+}
+
+.start-text {
+  color: #6c7289;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  margin-bottom: 2rem;
+}
+
+.heading-text {
+  line-height: 1.1;
+  font-size: 3.2rem;
+  font-weight: 700;
+  margin-bottom: 2.4rem;
+  font-family: "Fraunces", serif;
+}
+
+.main-text {
+  color: #6c7289;
+  font-size: 1.4rem;
+  line-height: 1.6;
+  margin-bottom: 3.2rem;
+  letter-spacing: 0.1px;
+}
+
+.price {
+  color: hsl(158, 36%, 37%);
+  font-family: "Fraunces", serif;
+  font-size: 3.2rem;
+  font-weight: 700;
+  position: relative;
+  margin-bottom: 3.2rem;
+}
+
+.price::after {
+  position: absolute;
+  left: 140px;
+  top: 10px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: normal;
+  content: "$169.99";
+  text-decoration: line-through;
+  font-size: 1.5rem;
+  color: #6c7289;
+}
+
+.btn {
+  font-family: inherit;
+  border: none;
+  background: none;
+  font-size: 1.2rem;
+  background-color: #3c8067;
+  padding: 1.4rem;
+  width: 100%;
+  color: hsl(0, 0%, 100%);
+  border-radius: 11px;
+}
+
+.btn:hover {
+  background-color: #1e4034;
+}
+
+.btn-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.attribution {
+  text-align: center;
+  margin-top: 1.6rem;
+}
